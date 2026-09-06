@@ -1,0 +1,6 @@
+{
+  "appId": "com.aplikasiku.app",
+  "appName": "Bilangan Prima Detektor",
+  "webDir": ".",
+  "bundledWebRuntime": false
+}

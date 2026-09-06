@@ -23,6 +23,8 @@ jobs:
       - name: Install Dependencies & Setup Capacitor
         run: |
           npm install
+          mkdir -p www
+          if [ -f index.html ]; then cp index.html www/; fi
           npx cap add android || true
           npx cap sync android
 
